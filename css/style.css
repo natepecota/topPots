@@ -4,5 +4,34 @@ table {
 
 table, th, td {
     border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+    border-color: #ffffff;
 }
+
+th {
+  color: #ffffff;
+  background-color: #ff9800;
+}
+
+td {
+  color: #ffffff;
+  background-color: #7e8aa2;
+}
+
+p {
+  font-size: 24px;
+  font-family: "Helvetica", sans-serif;
+}
+
+#minCustHr:focus {
+  background-color: #ff9800;
+}
+
+#submit_button:hover {
+  background-color: #7e8aa2;
+}
+
+
+
 
