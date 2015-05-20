@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Donuts</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <p>
+      If you wish to amend any of the existing stats for any location please select it form the drop down menu and enter the desired stats into the corresponding form.
+    </p>
+
+    <select id ="alterLocation">
+    </select>
+
+    <form id="formSubmit">
+      <label>Minimum Customers Per Hour:</label>
+      <input id="minCustHr" type="text">
+      <label>Maximum Customers Per Hour:</label>
+      <input id="maxCustHr" type="text">
+      <label>Average Donuts Per Customer</label>
+      <input id="avgDPC" type="text">
+      <input type="submit" value="Submit">
+    </form>
+
+    <p>
+      If the location you were looking for was not avaible, please feel free to create it here.
+    </p>
+
+    <form action="">
+      <label>New Location:</label>
+      <input id="additionalLocation" type="text">
+      <input type="submit" value="Save">
+    </form>
+  </br>
+
+    <table id="DonutTable">
+
+    </table>
+  </body>
+
+  <script type="text/javascript" src="donuts.js" ></script>
